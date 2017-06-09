@@ -1,0 +1,20 @@
+#fixThis {
+	font-size: 12px;
+	z-index: 19999;
+	float: left;
+	box-sizing: border-box;
+	transition: all 350ms;
+	display: inline-block;
+	right: 0;
+	cursor: pointer;
+	background: rgba(0,0,0,0.32);
+	width: 100%;
+	text-align: center; 
+	cursor: pointer;
+	padding: 10px;
+	color: rgba(255,255,255,0.75);
+}
+
+#fixThis:hover {
+	background: rgba(0,0,0,0.45);
+}

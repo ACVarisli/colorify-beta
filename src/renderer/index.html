@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css"> 
+    <title>Colorify BETA</title>
+	<script src="https://cdn.jsdelivr.net/clipboard.js/1.6.1/clipboard.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+  </head>
+  <body style="-webkit-app-region: drag;" >
+  	<div id="container">
+	  	<aside id="leftPane">
+		  	<article id="content">
+			  	<a class="pixelCode hex" id="hex"
+				  onclick="copyHex()">#FCB331</a><br />
+			  	<a class="pixelCode rgba" onclick="copyRgb()">rgba(252,179,49,1)</a>
+		  	</article>
+		  <footer id="options">
+		  	<div id="fixThis" style="border-right: 1px solid rgba(0,0,0,0.05);"
+			  onclick="stopButton()">
+			  	<i class="fa fa-thumb-tack"></i> Sabitle<br />
+			  	<span class="shortcut"> Space </span>
+		  	</div>
+		
+	  	</footer>
+	  	</aside>
+  	</div>
+  </body>
+</html>

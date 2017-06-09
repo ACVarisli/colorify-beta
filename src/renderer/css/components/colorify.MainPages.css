@@ -1,0 +1,63 @@
+aside#leftPane {
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0; 
+	background: #FCB331;
+	box-sizing: border-box; 
+	padding: 10px;
+	display: table;
+}
+
+#leftPane article#content {
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	width: 200px;
+	text-align: center;
+	position: relative;
+	height: 100%;
+}
+
+aside#rightPane {
+	position: fixed;
+	left: 200px;
+	top: 0;
+	bottom: 0; 
+	width: 130px;
+	height: 100%;
+	right: 0; 
+	box-sizing: border-box; 
+	padding: 10px;
+	word-wrap: break-word;
+	display: table; 
+}
+
+#rightPane article#content {
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+	text-align: center;
+	height: 100%;
+}
+
+#rightPane article#content i {
+	font-size: 60px;
+	transform: rotate(45deg);
+	color: rgba(0,0,0,0.35); 
+}
+
+#rightPane article#content span {
+	font-size: 16px;
+	color: rgba(0,0,0,0.40);
+}
+
+footer#options {
+	position: absolute; 
+	bottom: 0;
+	left: 0; 
+	width: 200px;
+	height: auto;
+}

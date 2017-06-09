@@ -1,0 +1,21 @@
+﻿{
+  "name": "colorify-beta",
+  "displayName": "Colorify BETA",
+  "productName": "Colorify BETA",
+  "description": "A color finder app BETA.",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "robotjs": "^0.4.7"
+  },
+  "author": {
+    "name": "Ahmet Can VARIŞLI",
+    "email": "iletisim@acv.web.tr",
+    "url": "http://www.acv.web.tr"
+  },
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-installer-debian": "*",
+    "electron-packager": "*"
+  }
+}

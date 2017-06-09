@@ -1,0 +1,21 @@
+span.shortcut {
+	font-size: 9px;
+}
+
+.empty {
+	width: 50px;
+	height: 50px;
+}
+
+a.pixelCode {
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.20);
+	border-radius: 13px;
+	font-size: 12px;
+	box-sizing: border-box;
+	margin-bottom: 10px; 
+}
+
+
